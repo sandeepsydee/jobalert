@@ -1,0 +1,234 @@
+@keyframes blink {
+    0% { opacity: 0; }
+    50% { opacity: 1; }
+    100% { opacity: 0; }
+  }
+@keyframes colorChange {
+    0% { color: blue; }
+    50% { color: green; }
+    100% { color: red; }
+}
+
+@media only screen and (max-width:900px) {
+    .heading{
+        width: 100%;
+    }
+    nav a{
+        width: 6%;
+        font-weight: bold;
+
+    }
+    .heading{
+        width: 100px;
+    }
+    .name h3 {
+        padding-right: 50%;
+        text-align: center;
+        font-family: Georgia, serif;
+        font-size: 10px;
+        color: #666;
+    }
+    .info{
+        padding: 20px;
+        font-family: Georgia, serif;
+        font-size: smaller;
+        text-align: center;
+    }
+
+}
+
+
+/* Resetting default browser styles */
+
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, img, table, tbody, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: palatino,sans-serif;
+    vertical-align: baseline;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ddd;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation styles */
+nav {
+    background-color: #2754f5; 
+    overflow: hidden;
+}
+nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 35px;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+nav a:hover {
+    background-color: #90EE90;
+    color: black;
+}
+/* Header styles */
+.heading{
+    width: 200%;
+}
+.logo{
+    width: 50%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.ll{
+    float: inline-start;
+    width: 15.68%;
+    height: auto;
+    display: inline-block; /* Make it inline with another div */
+    vertical-align: middle;
+}
+.ll2{
+    float: inline-end;
+    width: 15.68%;
+    height: auto;
+    display: inline-block; /* Make it inline with another div */
+    vertical-align: middle;
+}
+
+.name {
+    width: 68.64%;
+    align-items: center;
+    display: inline;
+    background-color: #ddd;
+    text-align: center;
+    margin: 0px 0;
+}
+
+.name h1 {
+    float:center;
+    font-weight: bolder;
+    font-family: Georgia, serif;
+    font-size: 80px;
+    color: #ff4433;
+}
+
+.name h3 {
+    text-align: center;
+    font-family: Georgia, serif;
+    font-size: 10px;
+    color: #666;
+}
+.info{
+    padding: 20px;
+    font-family: Georgia, serif;
+    font-size: 20px;
+    text-align: center;
+}
+.wish{
+    font-weight: bolder;
+    font-family: "Noto Serif Khojki", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 40px;
+    color: #ff4433;
+    text-align: center;
+    animation: colorChange 5s infinite;
+}
+
+
+
+/* Content styles */
+.content{
+    align-items: center;
+}
+.cont{
+    align-items: center;
+    width: 100%;
+    border-collapse: collapse; /* Optional: Collapse the borders */
+    th, td {
+        width:33%;
+        border: 1px solid black; /* Optional: Add borders to cells */
+        padding: 8px; /* Optional: Add padding to cells */
+        text-align: center; /* Optional: Center-align content */
+    }
+    th{
+        font-weight: bolder;
+        background-color: #ff4433;
+    }
+    td{
+        font-weight: bolder;
+        background-color: #FFDAB9;
+    }
+
+}
+table td:hover {
+    background-color: #90EE90; /* Change background color on hover */
+}
+
+.box-header{
+    font-weight: bolder;
+    width: 100%;
+    background-color: #FFD700;
+    text-align: center;
+
+}
+.events{
+    padding-left: 5%;
+    padding-right:5% ;
+}
+.box-row{
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+    
+}
+.post{
+    border: 1px solid black;;
+    width:100%;
+    text-align: center;
+    vertical-align: middle;
+    th, td {
+        width: 20%;
+        font-weight: bolder;
+        border: 1px solid black; /* Add border to all cells */
+        padding: 8px;
+        text-align: center;
+    }
+    th{
+        background-color: rgb(69, 153, 238);
+    }
+    td{
+        vertical-align: middle;
+    }
+}
+button{
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+    width :180px;
+    background-color:#ebeef1;
+    cursor: pointer;
+    border: none;
+    border-radius: 25px;
+    color: #00a037;
+    box-shadow: 10px 10px 10px -1px rgba(10,99,169,0.16),
+                -10px -10px 10px -1px rgba(255, 255, 255, 0.70);
+
+
+}
+.disclaimer{
+    font-weight: bolder;
+    color: red;
+    padding: 15px;
+    text-align: center;
+}
+
