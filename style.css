@@ -8,7 +8,7 @@
     50% { color: green; }
     100% { color: red; }
 }
-
+/*
 @media only screen and (max-width:900px) {
     .heading{
         width: 100%;
@@ -38,12 +38,13 @@
         width:100;
     }
 
-}
+}*/
 
 
 /* Resetting default browser styles */
 
 html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, img, table, tbody, thead, tr, th, td {
+    width:device-width;
     margin: 0;
     padding: 0;
     border: 0;
