@@ -9,7 +9,43 @@
     100% { color: red; }
 }
 
+@media only screen and (max-width:1000px) {
+    .heading{
+        width: 150%;
+    }
+    .nav a{
+        width: 6%;
+        font-weight: bold;
 
+    }
+    .heading{
+        width: 100px;
+    }
+    .name h3 {
+        padding-right: 50%;
+        text-align: center;
+        font-family: Georgia, serif;
+        font-size: 10px;
+        color: #666;
+    }
+    .info{
+        padding: 20px;
+        font-family: Georgia, serif;
+        font-size: smaller;
+        text-align: center;
+    }
+    .cont{
+    align-items: center;
+    width: 150%;
+    border-collapse: collapse; /* Optional: Collapse the borders */
+    th, td {
+        width:33%;
+        border: 1px solid black; /* Optional: Add borders to cells */
+        padding: 8px; /* Optional: Add padding to cells */
+        text-align: center; /* Optional: Center-align content */
+    }
+
+}
 
 
 /* Resetting default browser styles */
