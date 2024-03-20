@@ -13,7 +13,7 @@
     .heading{
         width: 100%;
     }
-    .nav a{
+    nav a{
         width: 6%;
         font-weight: bold;
 
@@ -33,16 +33,6 @@
         font-family: Georgia, serif;
         font-size: smaller;
         text-align: center;
-    }
-    .cont{
-    align-items: center;
-    width: 150%;
-    border-collapse: collapse; /* Optional: Collapse the borders */
-    th, td {
-        width:33%;
-        border: 1px solid black; /* Optional: Add borders to cells */
-        padding: 8px; /* Optional: Add padding to cells */
-        text-align: center; /* Optional: Center-align content */
     }
 
 }
