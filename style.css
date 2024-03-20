@@ -10,7 +10,7 @@
 }
 
 @media only screen and (max-width:900px) {
-    width:device-width;
+    width:100%;
     .heading{
         width: 100%;
     }
