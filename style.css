@@ -8,12 +8,12 @@
     50% { color: green; }
     100% { color: red; }
 }
-/*
+
 @media only screen and (max-width:900px) {
     .heading{
-        width: 100%;
+        width: 150%;
     }
-    nav a{
+    .nav a{
         width: 6%;
         font-weight: bold;
 
@@ -35,7 +35,7 @@
         text-align: center;
     }
 
-}*/
+}
 
 
 /* Resetting default browser styles */
