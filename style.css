@@ -12,7 +12,7 @@
 @media only screen and (max-width:900px) {
     width:100%;
     .heading{
-        width: 100%;
+        width: device-width;
     }
     nav a{
         width: 6%;
@@ -20,7 +20,7 @@
 
     }
     .heading{
-        width: 100px;
+        width: device-width;
     }
     .name h3 {
         padding-right: 50%;
@@ -34,6 +34,9 @@
         font-family: Georgia, serif;
         font-size: smaller;
         text-align: center;
+    }
+    .cont{
+        width=device-width;
     }
 
 }
