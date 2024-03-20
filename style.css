@@ -9,33 +9,7 @@
     100% { color: red; }
 }
 
-@media only screen and (max-width:1000px) {
-    .heading{
-        width: 150%;
-    }
-    .nav a{
-        width: 6%;
-        font-weight: bold;
 
-    }
-    .heading{
-        width: 100px;
-    }
-    .name h3 {
-        padding-right: 50%;
-        text-align: center;
-        font-family: Georgia, serif;
-        font-size: 10px;
-        color: #666;
-    }
-    .info{
-        padding: 20px;
-        font-family: Georgia, serif;
-        font-size: smaller;
-        text-align: center;
-    }
-
-}
 
 
 /* Resetting default browser styles */
