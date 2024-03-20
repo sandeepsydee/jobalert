@@ -11,7 +11,7 @@
 
 @media only screen and (max-width:1000px) {
     .heading{
-        width: 150%;
+        width: 100%;
     }
     .nav a{
         width: 6%;
